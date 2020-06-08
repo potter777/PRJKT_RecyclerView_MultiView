@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/lytEnabler"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/txtEnablerTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Cual es tu opcion seleccionada?"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbtEnabler1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorPrimary"
+            android:text="Enabler 1"
+            android:textSize="13sp"
+            android:visibility="gone" />
+
+        <RadioButton
+            android:id="@+id/rbtEnabler2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorPrimary"
+            android:text="Enabler 2"
+            android:textSize="@dimen/text_size"
+            android:visibility="gone" />
+
+        <RadioButton
+            android:id="@+id/rbtEnabler3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorPrimary"
+            android:text="Enabler 3"
+            android:textSize="@dimen/text_size"
+            android:visibility="gone" />
+
+        <RadioButton
+            android:id="@+id/rbtEnabler4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorPrimary"
+            android:text="Enabler 4"
+            android:textSize="@dimen/text_size"
+            android:visibility="gone" />
+
+        <RadioButton
+            android:id="@+id/rbtEnabler5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorPrimary"
+            android:text="Enabler 5"
+            android:textSize="@dimen/text_size"
+            android:visibility="gone" />
+
+        <RadioButton
+            android:id="@+id/rbtEnabler6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorPrimary"
+            android:text="Enabler 6"
+            android:textSize="@dimen/text_size"
+            android:visibility="gone" />
+    </RadioGroup>
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PRJKT</string>
+    <string name="hint_mask_dui">000000000</string>
+    <string name="hint_mask_nit">00000000000000</string>
+    <string name="hint_mask_phone">00000000</string>
+    <string name="birthday">Fecha de nacimiento</string>
+    <string name="hint_date">00/00/0000</string>
+</resources>

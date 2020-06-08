@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/lytMultiple"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/txtMultipleTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Has hecho algo?"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/chkMultiple1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/colorPrimary"
+        android:text="Selectable 1"
+        android:textSize="@dimen/text_size"
+        android:visibility="gone" />
+
+    <CheckBox
+        android:id="@+id/chkMultiple2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/colorPrimary"
+        android:text="Selectable 2"
+        android:textSize="@dimen/text_size"
+        android:visibility="gone" />
+
+    <CheckBox
+        android:id="@+id/chkMultiple3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/colorPrimary"
+        android:text="Selectable 3"
+        android:textSize="@dimen/text_size"
+        android:visibility="gone" />
+
+    <CheckBox
+        android:id="@+id/chkMultiple4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/colorPrimary"
+        android:text="Selectable 4"
+        android:textSize="@dimen/text_size"
+        android:visibility="gone" />
+
+    <CheckBox
+        android:id="@+id/chkMultiple5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/colorPrimary"
+        android:text="Selectable 5"
+        android:textSize="@dimen/text_size"
+        android:visibility="gone" />
+
+    <CheckBox
+        android:id="@+id/chkMultiple6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/colorPrimary"
+        android:text="Selectable 6"
+        android:textSize="@dimen/text_size"
+        android:visibility="gone" />
+
+    <CheckBox
+        android:id="@+id/chkMultiple7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/colorPrimary"
+        android:text="Selectable 7"
+        android:textSize="@dimen/text_size"
+        android:visibility="gone" />
+
+    <CheckBox
+        android:id="@+id/chkMultiple8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/colorPrimary"
+        android:text="Selectable 8"
+        android:textSize="@dimen/text_size"
+        android:visibility="gone" />
+
+    <CheckBox
+        android:id="@+id/chkMultiple9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/colorPrimary"
+        android:text="Selectable 9"
+        android:textSize="@dimen/text_size"
+        android:visibility="gone" />
+
+    <CheckBox
+        android:id="@+id/chkMultiple10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/colorPrimary"
+        android:text="Selectable 10"
+        android:textSize="@dimen/text_size"
+        android:visibility="gone" />
+
+</LinearLayout>

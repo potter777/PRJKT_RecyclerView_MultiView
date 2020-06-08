@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/lytDate"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/txtDateTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Birthday"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtDateDate"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:gravity="center_vertical|start"
+        android:inputType="date"
+        android:paddingStart="5dp"
+        android:paddingEnd="0dp"
+        android:focusableInTouchMode="false"
+        android:hint="Date"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_size"
+        android:importantForAutofill="no" />
+</LinearLayout>

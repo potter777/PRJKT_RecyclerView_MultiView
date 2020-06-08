@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/lytSingle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/txtSingleTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Departamento"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginTop="3dp"
+        android:background="@color/colorPrimary">
+
+        <Spinner
+            android:id="@+id/spnSingleOption"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:spinnerMode="dialog" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="false"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/txtSingleSelected"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="85"
+                android:background="@color/colorPrimary"
+                android:gravity="center_vertical|start"
+                android:paddingStart="16dp"
+                android:clickable="false"
+                android:focusableInTouchMode="false"
+                tools:text="Hombre"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="@dimen/text_size" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="15"
+                android:orientation="horizontal"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
