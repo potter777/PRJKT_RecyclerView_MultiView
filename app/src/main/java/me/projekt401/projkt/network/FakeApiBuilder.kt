@@ -10,6 +10,8 @@ import java.util.concurrent.TimeUnit
 
 val readTimeoutSeconds : Long = 5
 val connectTimeoutSeconds : Long = 5
+
+/* Mock server desde Postman para tests */
 private val baseUrl = "https://32622263-e78e-4a31-afa8-52ac85e0de2a.mock.pstmn.io/"
 
 val loggingInterceptor = HttpLoggingInterceptor().apply {

@@ -96,6 +96,10 @@ class MultipleViewAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
         }
     }
 
+    /*
+    * Agregare todos los ViewHolders que hacen falta para completar los 3 "steps"
+     */
+
     inner class TypeSimpleTextViewHolder constructor(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val titleSimpleText = itemView.txtTextTitle
 
